@@ -1,1 +1,51 @@
-
+При выполнении работы найдены и исправлены следующие ошибки:
+Не верная команда. Сейчас ".animated {  -webkit-animation-duration: 2s;  animation-duration: 1s;  -webkit-animation-fill-mode: both;  animation-fill-mode: both;}", должно быть ".animated {  -webkit-animation-duration: 2s;  animation-duration: 2s;  -webkit-animation-fill-mode: both;  animation-fill-mode: both;}"
+Не верная команда. Сейчас
+"
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+    animation-duration: 3s;
+  animation-name: fadeIn;
+}
+Должно быть
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+      animation-name: fadeIn;
+}
+Не верная команда. Сейчас
+@-webkit-keyframes rotateOut {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+  }
+Должно быть
+@-webkit-keyframes rotateOut {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+-webkit-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+Не верная команда.Сейчас
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+Должно быть
+.fa {
+  display: inline-block;
+  font: normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+Опечатка. Сейчас  <a href="mac.html">Вернуся на главную</a>, должно быть  <a href="mac.html">Вернуться на главную</a>
+Опечатка. Сейчас <title>Терминал MaOS</title>, должно быть <title>Терминал MaсOS</title>
+Не верная команда. Сейчас <a href="../index.html">Вернуться на главную</a>, должно быть <a href="index.html">Вернуться на главную</a>
