@@ -1,5 +1,7 @@
 При выполнении работы найдены и исправлены следующие ошибки:
+Файл animate.css
 Не верная команда. Сейчас ".animated {  -webkit-animation-duration: 2s;  animation-duration: 1s;  -webkit-animation-fill-mode: both;  animation-fill-mode: both;}", должно быть ".animated {  -webkit-animation-duration: 2s;  animation-duration: 2s;  -webkit-animation-fill-mode: both;  animation-fill-mode: both;}"
+Файл animate.css
 Не верная команда. Сейчас
 "
 .fadeIn {
@@ -12,6 +14,7 @@
   -webkit-animation-name: fadeIn;
       animation-name: fadeIn;
 }
+Файл animate.css
 Не верная команда. Сейчас
 @-webkit-keyframes rotateOut {
   from {
@@ -28,6 +31,7 @@
     transform: none;
     opacity: 1;
   }
+Файл animate.css
 Не верная команда.Сейчас
 .fa {
   display: inline-block;
@@ -46,6 +50,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+Файл git.html
 Опечатка. Сейчас  <a href="mac.html">Вернуся на главную</a>, должно быть  <a href="mac.html">Вернуться на главную</a>
+Файл mac.html
 Опечатка. Сейчас <title>Терминал MaOS</title>, должно быть <title>Терминал MaсOS</title>
+Файл mac.html
 Не верная команда. Сейчас <a href="../index.html">Вернуться на главную</a>, должно быть <a href="index.html">Вернуться на главную</a>
