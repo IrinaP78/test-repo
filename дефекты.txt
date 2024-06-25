@@ -1,55 +1,5 @@
 При выполнении работы найдены и исправлены следующие ошибки:
-Файл animate.css
-Не верная команда. Сейчас ".animated {  -webkit-animation-duration: 2s;  animation-duration: 1s;  -webkit-animation-fill-mode: both;  animation-fill-mode: both;}", должно быть ".animated {  -webkit-animation-duration: 2s;  animation-duration: 2s;  -webkit-animation-fill-mode: both;  animation-fill-mode: both;}"
-Файл animate.css
-Не верная команда. Сейчас
-"
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-    animation-duration: 3s;
-  animation-name: fadeIn;
-}
-Должно быть
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-      animation-name: fadeIn;
-}
-Файл animate.css
-Не верная команда. Сейчас
-@-webkit-keyframes rotateOut {
-  from {
-    -webkit-transform-origin: center;
-    transform-origin: center;
-    opacity: 1;
-  }
-Должно быть
-@-webkit-keyframes rotateOut {
-  from {
-    -webkit-transform-origin: center;
-    transform-origin: center;
--webkit-transform: none;
-    transform: none;
-    opacity: 1;
-  }
-Файл animate.css
-Не верная команда.Сейчас
-.fa {
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-Должно быть
-.fa {
-  display: inline-block;
-  font: normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+
 Файл git.html
 Опечатка. Сейчас  <a href="mac.html">Вернуся на главную</a>, должно быть  <a href="mac.html">Вернуться на главную</a>
 Файл mac.html
