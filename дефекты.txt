@@ -16,3 +16,4 @@
 2. Ошибка в описании команд. Сейчас  <li>DIR – Изменить каталог</li> , должно быть <li>DIR – Отображает список файлов и подкаталогов каталога </li>
 Файл index.html
 1. Ошибка написания команд.Сейчас <link rel="shortcut icon" href="img/fav.ico" type="image/x-icon">, одлжно быть <link rel="shortcut icon" href="../img/fav.ico" type="image/x-icon">
+2. Лишний пробел в подвале страницы. Сейчас "202 4", а должно быть "2024"
